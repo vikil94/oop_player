@@ -1,5 +1,5 @@
 class Player:
-
+"""This class created a player that can collect treasure and go into battle """
     def __init__(self, gold_coins=0, health_points=10, lives=5):
         self.coins = gold_coins
         self.health = health_points
